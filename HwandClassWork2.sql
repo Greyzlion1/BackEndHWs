@@ -9,6 +9,7 @@ Departments
  Name nvarchar (25) default 'Undecided' Not Null Constraint Ck_Departments_Name check(Len(Name)>2)
 )
 
+truncate table Departments
 
 Insert into Departments Values
 ('Credit'),
