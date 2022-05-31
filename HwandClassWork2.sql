@@ -39,9 +39,3 @@ Insert into Employees Values
 ('Vasif Aliyev',3600,2,'vasiyev@gmail.com'),
 ('Murad Aliyev',5400,5,'muradaliyev@gmail.com'),
 ('Aydin Alakbarli',3800,4,'aydinalakbarli@gmail.com')
-
-
-
-
-
-
