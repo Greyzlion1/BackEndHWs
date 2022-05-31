@@ -7,7 +7,6 @@ Departments
 (
  Id int Constraint PK_Departments_ID Primary key identity,
  Name nvarchar (25) default 'Undecided' Not Null Constraint Ck_Departments_Name check(Len(Name)>2)
-
 )
 
 
@@ -26,7 +25,6 @@ FullName nvarchar(50) default 'Undecided'  not null constraint ck_Employees_Full
 Salary money constraint Ck_Employees_Salary Check(Len(Salary)>0),
 DepartmentsId int foreign key references  Departments(Id),
 Email nvarchar(50) default 'Undecided' not null constraint Uk_Employees_Email  Unique
- 
 )
 
 
